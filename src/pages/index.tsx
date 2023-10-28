@@ -8,7 +8,7 @@ import { NormalText } from "@/components/Text";
 
 export default function Home() {
   return (
-    <main className="flex h-screen items-center justify-center bg-[hsl(217,54%,11%)] font-Outfit">
+    <main className="flex min-h-screen items-center justify-center bg-[hsl(217,54%,11%)] font-Outfit ">
       <div className="flex flex-col w-72 items-center p-4 bg-[hsl(216,50%,16%)] rounded-md gap-4 s">
         <div className=" flex">
           <Image
@@ -19,14 +19,14 @@ export default function Home() {
           {/* <div className="hover:bg-[hsl(178,100%,50%)]  hover:opacity-30 w-64 items-center h-64 p-4 rounded-lg  bg-transparent z-20 absolute hover:visible "></div> */}
           <div className="group">
             <div className="flex-1  h-64 rounded-lg  w-64  ml-[-255px] p-4 z-50 absolute   hover:bg-[hsl(178,100%,50%)]  hover:bg-opacity-30 ">
-             
+
             </div>
 
             <div className="flex-1 bg-transparent z-40  h-64 w-64 absolute text-black p-1  group-hover:flex ml-[-255px]  hidden ">  <Image
-                className="h-8 w-auto ml-[110px] mt-[106px]  absolute opacity- z-50"
-                src={view}
-                alt=""
-              /></div>
+              className="h-8 w-auto ml-[110px] mt-[106px]  absolute opacity- z-50"
+              src={view}
+              alt=""
+            /></div>
           </div>
         </div>
         <BoldText
